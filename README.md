@@ -34,3 +34,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## GitHub
+You can create a project, and add a repository to it.
+
+To push to GitHub, simply create a repository on GitHub, make it empty as much as possible.
+
+Then use the remote url to the https url for the repo. Note: For simplicity, DO NOT use the SSH URL. 
+
+```
+git remote add origin https://github.com/reaphsoft-org/reaphsoft-web.git
+git push -u origin main
+```
+
+To change the URL when it has already been set, use
+```
+git remote set-url origin https://github.com/reaphsoft-org/reaphsoft-web.git
+git remote -v 
+```
