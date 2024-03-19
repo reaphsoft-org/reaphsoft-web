@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b722f009-7326-4520-a12a-93ecf9aa49b8" name="Changes" comment="Added some icons and created the page." />
+    <list default="true" id="b722f009-7326-4520-a12a-93ecf9aa49b8" name="Changes" comment="Initial Commit for the bootstrap branch.">
+      <change afterPath="$PROJECT_DIR$/public/outline_travel_explore_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/poly_digital_06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +50,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "bootstrap",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/DELL/PycharmProjects/reaphsoft-web/package.json",
+    "last_opened_file_path": "C:/Users/DELL/PycharmProjects/reaphsoft-web/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,7 +58,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "D:\\src\\JetBrains\\PyCharm 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Users\\DELL\\PycharmProjects\\reaphsoft-web\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -82,6 +89,7 @@
       <updated>1688846296220</updated>
       <workItem from="1710834941931" duration="8225000" />
       <workItem from="1710850280450" duration="6982000" />
+      <workItem from="1710857927466" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README.md">
       <option name="closed" value="true" />
@@ -107,18 +115,53 @@
       <option name="project" value="LOCAL" />
       <updated>1710856675934</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial Commit for the bootstrap branch.">
+      <option name="closed" value="true" />
+      <created>1710857990472</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710857990472</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -128,6 +171,7 @@
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Added the background of the body and changed the title of the home page." />
     <MESSAGE value="Added some icons and created the page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some icons and created the page." />
+    <MESSAGE value="Initial Commit for the bootstrap branch." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit for the bootstrap branch." />
   </component>
 </project>

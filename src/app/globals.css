@@ -87,17 +87,8 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  background: rgb(var(--background-start-rgb)) url('/poly_digital_06.jpg');
+  background-size: cover;
 }
 
 @media (prefers-color-scheme: dark) {
