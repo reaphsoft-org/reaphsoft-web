@@ -53,3 +53,6 @@ To change the URL when it has already been set, use
 git remote set-url origin https://github.com/reaphsoft-org/reaphsoft-web.git
 git remote -v 
 ```
+
+## References
+1. [Next.js Docs](https://nextjs.org/docs/getting-started)

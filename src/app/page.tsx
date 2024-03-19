@@ -1,5 +1,6 @@
 import Image from "next/image";
 import {Metadata} from "next"
+import {Bars3Icon} from "@heroicons/react/24/outline";
 
 export const metadata: Metadata = {
   title: 'ReaphSoft'
@@ -118,7 +119,63 @@ function Home() {
 
 function Home1() {
   return (
-      <main></main>
+      <>
+        <MenuBar />
+        <main>
+        <div>
+        </div>
+      </main>
+      </>
+  );
+}
+
+function MenuBar() {
+  const search_height = 28;
+  return (
+      <header>
+        <nav className="text-white mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+          <div className="flex lg:flex-1">
+            <a href="#" className="-m-1.5 p-1.5">
+              <span className="sr-only">Your Company</span>
+              <Image
+                  src="/icons8-iris-scan-48.png"
+                  alt="Reaphsoft Logo"
+                  width = {48}
+                  height = {48}
+                  priority
+              />
+            </a>
+          </div>
+          <div className="flex lg:hidden">
+          <button
+            type="button"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            // onClick={() => setMobileMenuOpen(true)}
+          >
+            <span className="sr-only">Open main menu</span>
+            <Bars3Icon className="h-6 w-6 text-white" aria-hidden="true" />
+          </button>
+        </div>
+          <ul className="lg:flex items-center hidden lg:gap-x-12">
+            <li>
+              <a>Home</a>
+            </li>
+            <li>
+              <a>About Us</a>
+            </li>
+            <li><a>Contact Us</a></li>
+            <li><a>Software Dev</a></li>
+            <li><a>CyberSecurity</a></li>
+            <li>
+              <button type="button">
+                <span className="sr-only">Search</span>
+                <Image src="/outline_travel_explore_white_24dp.png" alt="search icon" width={search_height} height={search_height} />
+                {/*<LifebuoyIcon className="h-6 w-6" aria-hidden="true" />*/}
+              </button>
+            </li>
+          </ul>
+      </nav>
+      </header>
   );
 }
 
