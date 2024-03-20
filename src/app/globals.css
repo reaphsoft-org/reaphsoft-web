@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -95,4 +97,24 @@ body {
   html {
     color-scheme: dark;
   }
+}
+
+.sono-regular {
+  font-family: "Sono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "MONO" 1;
+}
+.home-btn.btn{
+  text-transform: uppercase;
+  background-color: rgba(0, 193, 254, 1);
+  --bs-btn-border-radius: 0;
+  /*--bs-btn-padding-x: 3rem;*/
+  /*--bs-btn-padding-y: 0.6rem;*/
+  padding-top: 12px;
+  width: 190px;
+  height: 50px;
+
 }
