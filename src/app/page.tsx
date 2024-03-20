@@ -2,10 +2,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-        <NavBar />
-        <WriteUp />
-    </main>
+    <>
+        <main className="flex-shrink-0">
+            <NavBar />
+            <WriteUp />
+        </main>
+        <Footer />
+    </>
   );
 }
 
@@ -70,6 +73,9 @@ function WriteUp() {
         <div className="container">
             <div className="my-4 my-lg-5"></div>
             <div className="row">
+                <div className="my-0 container my-lg-5"></div>
+            </div>
+            <div className="row">
                 <div className="col-12 col-md-7">
                     <div className="text-white text-center sono-regular">
                         <h2>Reaphsoft is an emerging business, with the focus to providing excellent software and security
@@ -93,5 +99,15 @@ function WriteUp() {
                 </div>
             </div>
         </div>
+    );
+}
+
+function Footer() {
+    return(
+      <footer className="text-white text-center footer mt-4 mt-lg-0">
+          <div className="container">
+            <p>&copy; 2024</p>
+          </div>
+      </footer>
     );
 }
