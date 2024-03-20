@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b722f009-7326-4520-a12a-93ecf9aa49b8" name="Changes" comment="Added the sticky footer.">
+    <list default="true" id="b722f009-7326-4520-a12a-93ecf9aa49b8" name="Changes" comment="Installed React BootStrap">
+      <change afterPath="$PROJECT_DIR$/src/app/myoffcanvas.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
       <list>
         <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -90,7 +91,7 @@
       <workItem from="1710834941931" duration="8225000" />
       <workItem from="1710850280450" duration="6982000" />
       <workItem from="1710857927466" duration="9528000" />
-      <workItem from="1710925343411" duration="10080000" />
+      <workItem from="1710925343411" duration="12173000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README.md">
       <option name="closed" value="true" />
@@ -172,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710936917611</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Installed React BootStrap">
+      <option name="closed" value="true" />
+      <created>1710940160936</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710940160936</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +235,7 @@
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Added the text and buttons in the main body." />
     <MESSAGE value="Added the sticky footer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the sticky footer." />
+    <MESSAGE value="Installed React BootStrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Installed React BootStrap" />
   </component>
 </project>
