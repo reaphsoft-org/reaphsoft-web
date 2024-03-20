@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b722f009-7326-4520-a12a-93ecf9aa49b8" name="Changes" comment="Added a dark theme and changed offcanvas width.">
+    <list default="true" id="b722f009-7326-4520-a12a-93ecf9aa49b8" name="Changes" comment="Removed the visibility of some items and set others based on screen size.">
+      <change afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/base.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/myoffcanvas.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/myoffcanvas.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +92,7 @@
       <workItem from="1710834941931" duration="8225000" />
       <workItem from="1710850280450" duration="6982000" />
       <workItem from="1710857927466" duration="9528000" />
-      <workItem from="1710925343411" duration="12952000" />
+      <workItem from="1710925343411" duration="14531000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README.md">
       <option name="closed" value="true" />
@@ -195,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710942867663</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Removed the visibility of some items and set others based on screen size.">
+      <option name="closed" value="true" />
+      <created>1710943190600</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710943190600</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +263,7 @@
     <MESSAGE value="Installed React BootStrap" />
     <MESSAGE value="Moved Offcanvas to React Offcanvas" />
     <MESSAGE value="Added a dark theme and changed offcanvas width." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a dark theme and changed offcanvas width." />
+    <MESSAGE value="Removed the visibility of some items and set others based on screen size." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the visibility of some items and set others based on screen size." />
   </component>
 </project>

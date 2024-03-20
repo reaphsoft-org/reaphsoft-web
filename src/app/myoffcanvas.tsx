@@ -6,31 +6,6 @@ import OffcanvasHeader from 'react-bootstrap/OffcanvasHeader'
 import {OffcanvasBody, OffcanvasTitle} from "react-bootstrap";
 import Image from "next/image";
 
-function Example() {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
-  return (
-    <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch
-      </Button>
-
-      <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
-        </Offcanvas.Body>
-      </Offcanvas>
-    </>
-  );
-}
-
 export default function MyOffCanvasHeader() {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -47,10 +22,10 @@ export default function MyOffCanvasHeader() {
                 <OffcanvasBody>
                     <ul className="navbar-nav justify-content-between flex-grow-1 px-1 text-white">
                     <li className="nav-item mx-lg-4">
-                      <a className="nav-link active" aria-current="page" href="#">Home</a>
+                      <a className="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                     <li className="nav-item mx-lg-4">
-                      <a className="nav-link" href="#">About Us</a>
+                      <a className="nav-link" href="/about/">About Us</a>
                     </li>
                     <li className="nav-item mx-lg-4">
                       <a className="nav-link" href="#">Contact Us</a>
