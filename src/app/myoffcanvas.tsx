@@ -61,13 +61,13 @@ export default function MyOffCanvasHeader() {
                     <li className="nav-item mx-lg-4">
                   <a className="nav-link" href="#">Cyber Security</a>
                 </li>
-                    <li className="nav-item mx-lg-4">
+                    <li className="nav-item mx-lg-4 d-none d-lg-block">
                       <a className="nav-link">
                           <Image src="/outline_travel_explore_white_24dp.png" alt="Search" width={24} height={24} />
                       </a>
                     </li>
                   </ul>
-                    <form className="d-flex mt-3 visually-hidden" role="search">
+                    <form className="d-flex d-lg-none mt-3" role="search">
                     <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                     <button className="btn btn-outline-success" type="submit">Search</button>
                   </form>
