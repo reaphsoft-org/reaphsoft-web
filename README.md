@@ -54,6 +54,13 @@ git remote set-url origin https://github.com/reaphsoft-org/reaphsoft-web.git
 git remote -v 
 ```
 
+## Installations
+```
+npm install bootstrap@5.3.3
+npm install react-bootstrap bootstrap
+```
+
 ## References
 1. [Next.js Docs](https://nextjs.org/docs/getting-started)
 2. [OffCanvas Navbar](https://getbootstrap.com/docs/5.3/examples/navbars-offcanvas/)
+3. [React BootStrap](https://react-bootstrap.github.io/docs/getting-started/introduction)
