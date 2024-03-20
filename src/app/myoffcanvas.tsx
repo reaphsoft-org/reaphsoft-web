@@ -41,10 +41,10 @@ export default function MyOffCanvasHeader() {
                 <span className="navbar-toggler-icon"></span>
             </Button>
             <Offcanvas show={show} backdrop="static" onHide={handleClose} placement={'end'} responsive={'lg'}>
-                <OffcanvasHeader closeButton={true} className={"bg-dark text-white"} closeVariant={"white"}>
+                <OffcanvasHeader closeButton={true} closeVariant={"white"}>
                     <OffcanvasTitle>ReaphSoft</OffcanvasTitle>
                 </OffcanvasHeader>
-                <OffcanvasBody className={"bg-dark"}>
+                <OffcanvasBody>
                     <ul className="navbar-nav justify-content-between flex-grow-1 px-1 text-white">
                     <li className="nav-item mx-lg-4">
                       <a className="nav-link active" aria-current="page" href="#">Home</a>
