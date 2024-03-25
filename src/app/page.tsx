@@ -30,7 +30,7 @@ function WriteUp() {
                     <a className="home-btn text-white btn sono-regular">Software Dev</a>
                 </div>
                         <div className="col-12 col-md-4">
-                    <a className="home-btn text-white btn sono-regular">IT Security</a>
+                    <a className="home-btn text-white btn sono-regular" href="/security/">IT Security</a>
                 </div>
                     </div>
                 </div>

@@ -34,7 +34,7 @@ export default function MyOffCanvasHeader() {
                         <a className="nav-link" href="#">Software Dev</a>
                     </li>
                     <li className="nav-item mx-lg-4">
-                  <a className="nav-link" href="#">Cyber Security</a>
+                  <a className="nav-link" href="/security/">Cyber Security</a>
                 </li>
                     <li className="nav-item mx-lg-4 d-none d-lg-block">
                       <a className="nav-link">

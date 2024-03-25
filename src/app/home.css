@@ -1,0 +1,5 @@
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb)) url('/poly_digital_06.jpg');
+  background-size: cover;
+}

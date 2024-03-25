@@ -1,5 +1,4 @@
 import Image from "next/image";
-import OffcanvasHeader from 'react-bootstrap/OffcanvasHeader'
 import MyOffCanvasHeader from "@/app/myoffcanvas";
 import React from "react";
 
