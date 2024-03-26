@@ -1,3 +1,7 @@
+## Important
+Work on this branch has been discontinued. The main branch was initially being built with Tailwind CSS. Work is ongoing on the bootstrap branch with is styled with Bootstrap. See the [bootstrap](https://github.com/reaphsoft-org/reaphsoft-web/tree/bootstrap) branch for details. \
+The bootstrap branch will eventually be merged to this branch.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
