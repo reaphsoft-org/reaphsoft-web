@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b722f009-7326-4520-a12a-93ecf9aa49b8" name="Changes" comment="Working on security page, added a layout and fixed compatibility with app layout.">
-      <change afterPath="$PROJECT_DIR$/src/app/security/base.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/security/softcanvas.tsx" afterDir="false" />
+    <list default="true" id="b722f009-7326-4520-a12a-93ecf9aa49b8" name="Changes" comment="Working on the security page, added the menu items in a dropdown.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/security/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/security/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/security/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/security/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +91,8 @@
       <workItem from="1710857927466" duration="9528000" />
       <workItem from="1710925343411" duration="15421000" />
       <workItem from="1711344364785" duration="2168000" />
-      <workItem from="1711358687240" duration="2248000" />
+      <workItem from="1711358687240" duration="2980000" />
+      <workItem from="1711453449399" duration="4566000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README.md">
       <option name="closed" value="true" />
@@ -240,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711346477265</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Working on the security page, added the menu items in a dropdown.">
+      <option name="closed" value="true" />
+      <created>1711362782432</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711362782432</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +308,7 @@
     <MESSAGE value="Worked on the missions statement." />
     <MESSAGE value="Working on security page" />
     <MESSAGE value="Working on security page, added a layout and fixed compatibility with app layout." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on security page, added a layout and fixed compatibility with app layout." />
+    <MESSAGE value="Working on the security page, added the menu items in a dropdown." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on the security page, added the menu items in a dropdown." />
   </component>
 </project>
