@@ -36,7 +36,7 @@ function NavBar() {
 
 function Footer() {
     return(
-      <footer className="text-white text-center footer mt-4 mt-lg-0">
+      <footer className="text-center footer mt-4 mt-lg-0">
           <div className="container">
             <p>&copy; 2024</p>
           </div>
