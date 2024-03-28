@@ -65,3 +65,5 @@ npm install react-bootstrap bootstrap
 2. [OffCanvas Navbar](https://getbootstrap.com/docs/5.3/examples/navbars-offcanvas/)
 3. [React BootStrap](https://react-bootstrap.github.io/docs/getting-started/introduction)
 4. [React Bootstrap Offcanvas](https://react-bootstrap.github.io/docs/components/offcanvas)
+5. [Cards](https://react-bootstrap.github.io/docs/components/cards/)
+6. [Grid System](https://react-bootstrap.github.io/docs/layout/grid)
