@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import {Raleway} from "next/font/google";
 // import "./styles.css";
+
+const font = Raleway({subsets: ["latin"], weight: "300"});
 
 export const metadata: Metadata = {
   title: "ReaphSoft Security",
@@ -14,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-bs-theme="dark">
-      <body>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   );
 }
