@@ -121,3 +121,7 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+.text-justify{
+  text-align: justify;
+}
