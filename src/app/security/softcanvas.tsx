@@ -78,7 +78,7 @@ function CompetenciesDropDown() {
                 <NavDropdown.Item>Systems Risk Assessment (SRS)</NavDropdown.Item>
                 <NavDropdown.Item>ALC Vulnerability Management</NavDropdown.Item>
                 <NavDropdown.Item>Business Analysis & IT Auditing</NavDropdown.Item>
-                <NavDropdown.Item>And Many More</NavDropdown.Item>
+                <NavDropdown.Item href="/security/competencies/">And Many More</NavDropdown.Item>
             </NavDropdown>
         </>
     );
