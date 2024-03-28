@@ -34,14 +34,14 @@ export function MyCarousel() {
                 <Image src="/frpk/89029.jpg" alt="" fluid />
                 <Carousel.Caption>
                     <h3>OSINT Automator</h3>
-                    <a className="btn btn-outline-dark">OSINT</a>
+                    <a className="btn btn-dark">OSINT</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <Image src="/frpk/2150038856.jpg" alt="" fluid />
                 <Carousel.Caption>
                     <h3 className="text-light">Intrusion Check</h3>
-                    <a className="btn btn-outline-light">Check</a>
+                    <a className="btn btn-light">Check</a>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
