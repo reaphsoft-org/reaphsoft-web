@@ -3,3 +3,11 @@ body {
   background: rgb(var(--background-start-rgb)) url('/poly_digital_06.jpg');
   background-size: cover;
 }
+
+@media only screen and (max-width: 767px) {
+    body{
+
+  background: rgb(var(--background-start-rgb)) url('/poly_digital_06_small.jpg');
+  background-size: cover;
+    }
+}
