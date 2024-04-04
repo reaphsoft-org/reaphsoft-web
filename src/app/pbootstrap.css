@@ -1,7 +1,6 @@
 .nav-link{
     --bs-nav-link-color: white;
 }
-
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #fff3e0;
 }
