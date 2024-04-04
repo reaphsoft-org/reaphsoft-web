@@ -21,34 +21,34 @@ export default function MyOffCanvasHeader() {
                 </OffcanvasHeader>
                 <OffcanvasBody>
                     <ul className="navbar-nav justify-content-between flex-grow-1 px-1 text-white">
-                    <li className="nav-item mx-lg-4">
-                      <a className="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li className="nav-item mx-lg-4">
-                      <a className="nav-link">Account</a>
-                    </li>
-                    <li className="nav-item mx-lg-4">
-                      <a className="nav-link" href="/about/">About Us</a>
-                    </li>
-                    <li className="nav-item mx-lg-4">
-                      <a className="nav-link" href="#">Contact Us</a>
-                    </li>
-                    <li className="nav-item mx-lg-4">
-                        <a className="nav-link" href="#">Software Dev</a>
-                    </li>
-                    <li className="nav-item mx-lg-4">
-                  <a className="nav-link" href="/security/">Cyber Security</a>
-                </li>
-                    <li className="nav-item mx-lg-4 d-none d-lg-block">
-                      <a className="nav-link">
-                          <Image src="/outline_travel_explore_white_24dp.png" alt="Search" width={24} height={24} />
-                      </a>
-                    </li>
-                  </ul>
+                        <li className="nav-item mx-lg-4">
+                          <a className="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li className="nav-item mx-lg-4">
+                          <a className="nav-link">Account</a>
+                        </li>
+                        <li className="nav-item mx-lg-4">
+                          <a className="nav-link" href="/about/">About Us</a>
+                        </li>
+                        <li className="nav-item mx-lg-4">
+                          <a className="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li className="nav-item mx-lg-4">
+                            <a className="nav-link" href="#">Software Dev</a>
+                        </li>
+                        <li className="nav-item mx-lg-4">
+                          <a className="nav-link" href="/security/">Cyber Security</a>
+                        </li>
+                        <li className="nav-item mx-lg-4 d-none d-lg-block">
+                          <a className="nav-link">
+                              <Image src="/outline_travel_explore_white_24dp.png" alt="Search" width={24} height={24} />
+                          </a>
+                        </li>
+                    </ul>
                     <form className="d-flex d-lg-none mt-3" role="search">
-                    <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button className="btn btn-outline-success" type="submit">Search</button>
-                  </form>
+                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button className="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </OffcanvasBody>
             </Offcanvas>
         </>
