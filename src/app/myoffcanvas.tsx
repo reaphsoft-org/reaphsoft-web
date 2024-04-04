@@ -25,6 +25,9 @@ export default function MyOffCanvasHeader() {
                       <a className="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                     <li className="nav-item mx-lg-4">
+                      <a className="nav-link">Account</a>
+                    </li>
+                    <li className="nav-item mx-lg-4">
                       <a className="nav-link" href="/about/">About Us</a>
                     </li>
                     <li className="nav-item mx-lg-4">

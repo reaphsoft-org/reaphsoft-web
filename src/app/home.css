@@ -6,8 +6,10 @@ body {
 
 @media only screen and (max-width: 767px) {
     body{
-
-  background: rgb(var(--background-start-rgb)) url('/poly_digital_06_small.jpg');
-  background-size: cover;
+      background: rgb(var(--background-start-rgb)) url('/poly_digital_06_small.jpg');
+      background-size: cover;
     }
+  .footer-text{
+    background-color: #1407077d;
+  }
 }
